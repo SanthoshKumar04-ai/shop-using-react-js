@@ -29,5 +29,4 @@ function Cart() {
   );
 }
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Cart />);
+ReactDOM.render(<Cart />,document.getElementById('root'));
